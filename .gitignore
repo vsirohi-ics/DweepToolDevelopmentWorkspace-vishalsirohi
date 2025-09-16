@@ -1,0 +1,16 @@
+# WORKSPACE GITIGNORE - PREVENTS ACCIDENTAL COMMITS
+# This workspace should NEVER be committed to version control
+
+# Ignore everything by default
+*
+
+# Allow this .gitignore file
+!.gitignore
+
+# Allow README files for documentation
+!README.md
+!WORKSPACE_STRUCTURE.md
+!AI_AGENT_INSTRUCTIONS.md
+
+# Individual repositories manage their own version control
+# Workspace is only a container for multiple repositories
