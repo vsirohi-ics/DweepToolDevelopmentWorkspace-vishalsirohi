@@ -12,5 +12,9 @@
 !WORKSPACE_STRUCTURE.md
 !AI_AGENT_INSTRUCTIONS.md
 
+# Allow dweep tool development
+!packages/shared/dweep/
+!packages/shared/dweep/**
+
 # Individual repositories manage their own version control
 # Workspace is only a container for multiple repositories
