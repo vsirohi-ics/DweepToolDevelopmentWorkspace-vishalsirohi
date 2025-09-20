@@ -12,7 +12,11 @@
 !WORKSPACE_STRUCTURE.md
 !AI_AGENT_INSTRUCTIONS.md
 
-# Allow dweep tool development
+# Allow dweep tool development (specific exception)
+!packages/
+packages/*
+!packages/shared/
+packages/shared/*
 !packages/shared/dweep/
 !packages/shared/dweep/**
 
